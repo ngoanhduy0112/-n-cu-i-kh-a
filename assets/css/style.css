@@ -443,9 +443,104 @@
     width: 20%;
     height: 100px;
     background-color: green;
+    display: flex;
+    align-items: center;
 }
 .menu{
     width: 60%;
     height: 100px;
     background-color: blue;
+}
+.box-search{
+    position: relative;
+}
+.box-search input{
+    width: 250px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 0 25px 0 30px;
+    outline: none;
+}
+.box-search i{
+    position: absolute;
+    left: 10px;
+    top: 17px;
+    font-size: 15px;
+}
+/* BANNER SLIDER */
+.banner-slider{
+    width: 100%;
+    height: 550px;
+    background-color: violet;
+}
+/* Product Hot */
+.product-hot {
+    width: 100%;
+    background-color: pink;
+    padding-top: 100px;
+  }
+  
+  .product-hot .content {
+    width: 100%;
+    height: 400px;
+    background-color: violet;
+  }
+  
+  /* Best Saller */
+  .best-seller {
+    padding-top: 100px;
+  }
+  .best-seller .content {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+  }
+
+/*  LISTING PRODUCT */
+.listing-product{
+
+    padding-top: 100px;
+}
+.btn-listing{
+    border: 1px solid #AA1020;
+    color: #AA1020;
+    border-radius: 22px;
+    background-color: #fff;
+    padding: 8px 20px;
+    margin-right: 15px;
+}
+.btn-listing:last-child{
+    /* background-color: #AA1020;
+    color: #fff; */
+    margin-left: 20px;
+}
+.btn-listing.active{
+    background-color: #AA1020;
+    color: #fff;
+}
+.tab-content{
+    margin-top: 40px;
+    display: none;
+}
+.tab-content.active{
+    display: block;
+}
+.tab-1 .content{
+    width: 100%;
+    height: 400px;
+    background-color: green;
+}
+.tab-2 .content{
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    margin-bottom: 30px;
+}
+.tab-3 .content{
+    width: 100%;
+    height: 400px;
+    background-color: violet;
+    margin-bottom: 30px;
 }
